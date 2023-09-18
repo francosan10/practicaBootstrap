@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex-grow: 1;
+}
+/* pagina 404 */
+.display-1 {
+    margin-top: 10vh;
+    font-size: 7em;
+    color: #ff5722;
+    font-family: 'Bungee', cursive;
+    font-weight: 700;
+}
+
+.lead {
+    font-family: 'Bungee', cursive;
+    font-size: 2rem;
+}
+.lead2 {
+    font-family: 'Bungee', cursive;
+}
+.btn-volver {
+    background: linear-gradient(150deg, #de4545, rgb(250, 115, 5));
+    border-color: #ff5722;
+    font-family: 'Bungee', cursive;
+    color: aliceblue;
+}
+.btn-volver:hover {
+    border-color: #fbff22;
+}
+.dude {
+    max-width: 20%;
+}
