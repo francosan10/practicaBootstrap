@@ -1,2 +1,2 @@
 # practicaBootstrap
-Practica de bootstrap y responsive
+Practica de bootstrap y responsive RC
