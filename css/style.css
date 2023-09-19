@@ -17,7 +17,7 @@ main {
     font-weight: 700;
 }
 
-.lead {
+.lead1 {
     font-family: 'Bungee', cursive;
     font-size: 2rem;
 }
@@ -35,4 +35,21 @@ main {
 }
 .dude {
     max-width: 20%;
+}
+/* ajustes carousel */
+.productoCarousel {
+    height: 450px;
+    object-fit: cover;
+}
+/* dispositivos md */
+@media screen and (min-width:768px) and (max-width:991px) {
+    .productoCarousel {
+        height: 390px;
+    }
+}
+/* dispositivos lg */
+@media screen and (min-width:992px) {
+    .productoCarousel {
+        height: 700px;
+    }
 }
