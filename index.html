@@ -51,7 +51,107 @@
       </nav>
     </header>
     <main>
-
+      <!-- seccion carrusel -->
+      <section id="carouselProductos" class="carousel slide">
+          <!-- aqui van las rayitas -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselProductos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselProductos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselProductos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselProductos" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <!-- aqui van las imagenes -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/Ecofilas-1620x1080.jpg" class="d-block w-100 productoCarousel" alt="filamento ecofilas">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/DSC_5525-1620x1080.jpg" class="d-block w-100 productoCarousel" alt="colores de filamentos">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/softcolors-1620x1080.jpg" class="d-block w-100 productoCarousel" alt="filamentos softcolors">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/DSC_5525-1620x1080.jpg" class="d-block w-100 productoCarousel" alt="colores de filamentos">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselProductos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselProductos" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </section>
+      <!-- seccion informativa -->
+      <section class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-6">
+              <h2>Formá parte de un nuevo consumo sustentable</h2>
+              <p class="lead">En TecnoFilament proponemos una nueva forma ecológica de consumir filamentos 3D sin dañar el planeta.</p>
+              <p><b>Gana el planeta, ganás vos, ganamos todos</b></p>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <img class="img-fluid" src="./img/pla-480x295.jpg" alt="muñeco azul de filamento">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- seccion cards -->
+      <section class="bg-light py-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <article class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="card">
+              <img src="./img/Ecofila-480x295.png" class="card-img-top" alt="filamentos de colores">
+              <div class="card-body bg-dark text-light">
+                <h4>ECOFILA</h4>
+                <p class="card-text">Nueva linea de filamnetos ECOFILA.</p>
+                <ul>
+                  <li>Diseña objetos únicos.</li>
+                  <li>Imprimí piezas perfectas.</li>
+                  <li>Lorem ipsum dolor sit.</li>
+                  <li>Lleva la sencación de calma a cadaa una de tus creaciones.</li>
+                </ul>
+                <button type="button" class="btn btn-primary" disabled>Comprar</button>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="card">
+              <img src="./img/Ecofila-Random-650x400.jpg" class="card-img-top" alt="filamentos de colores">
+              <div class="card-body bg-dark text-light">
+                <h4>Colores de filamento</h4>
+                <p class="card-text">Ideal para:</p>
+                <ul>
+                  <li>Impresiones que luego serán pintadas.</li>
+                  <li>Impresiones que servirán para moldes.</li>
+                  <li>Prototipos, pruebas, etc.</li>
+                </ul>
+                <button type="button" class="btn btn-primary" disabled>Comprar</button>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="card">
+              <img src="./img/Ecofila-Recarga-480x295.png" class="card-img-top" alt="filamentos de colores">
+              <div class="card-body bg-dark text-light">
+                <h4>FILAMENTO 3D HELLBOT PLA ECOFILA XL 1,75 X 2KG</h4>
+                <p class="card-text">Con ECOFILA XL, el nuevo formato de 2 kilos de ECOFILA by Hellbot, vas a imprimir sin parar.</p>
+                <ul>
+                  <li>Ideal granjas de impresión 3D.</li>
+                  <li>Impresiones sin interruciones, mâs producción.</li>
+                  <li>Impresiones a gran escala.</li>
+                </ul>
+                <button type="button" class="btn btn-primary" disabled>Comprar</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      </section>
     </main>
     <footer class="bg-dark text-light py-3">
       <div class="container">
